@@ -1,0 +1,1 @@
+{"version":3,"file":"elephants.js","sourceRoot":"","sources":["../../../src/domains/elephants/elephants.ts"],"names":[],"mappings":";;;;;;;;;AAAA,2CAAwC;AACxC,4EAAwE;AACxE,oEAAgE;AAOzD,IAAM,eAAe,GAArB,MAAM,eAAe;CAAI,CAAA;AAAnB,0CAAe;0BAAf,eAAe;IAL3B,IAAA,eAAM,EAAC;QACJ,WAAW,EAAE,CAAC,0CAAmB,CAAC;QAClC,SAAS,EAAE,CAAC,oCAAgB,CAAC;KAChC,CAAC;GAEW,eAAe,CAAI"}
