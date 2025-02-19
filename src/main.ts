@@ -17,9 +17,17 @@ class AppModule { }
 
 
 async function bootstrap() {
+<<<<<<< Updated upstream
     const app = await NestFactory.create(AppModule);
 
     await app.listen(8000)
 };
 
 bootstrap()
+=======
+  const app = await NestFactory.create(AppModule);
+
+  await app.listen(process.env.PORT);
+}
+bootstrap();
+>>>>>>> Stashed changes
