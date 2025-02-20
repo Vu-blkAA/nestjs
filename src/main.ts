@@ -1,33 +1,9 @@
-import { Controller, Get, Module } from "@nestjs/common";
-import { NestFactory } from "@nestjs/core";
-
-@Controller()
-class AppController {
-    @Get()
-    getAppRoute() {
-        return 'this string'
-    }
-}
-
-
-@Module({
-    controllers: [AppController]
-})
-class AppModule { }
-
+import { NestFactory } from '@nestjs/core';
+import { AppModule } from './app.module';
+import { HttpExceptionFilter } from './exceptions/exception.filter';
 
 async function bootstrap() {
-<<<<<<< Updated upstream
-    const app = await NestFactory.create(AppModule);
-
-    await app.listen(8000)
-};
-
-bootstrap()
-=======
   const app = await NestFactory.create(AppModule);
-
-  await app.listen(process.env.PORT);
+  await app.listen(process.env.PORT ?? 3000);
 }
 bootstrap();
->>>>>>> Stashed changes
